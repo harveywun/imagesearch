@@ -4,7 +4,8 @@ var mongo = require('mongodb');
 var dotenv = require('dotenv');
 dotenv.config();
 var url = process.env.MONGOLAB_URI;
-var appurl = "https://fcc-project-hwun.c9users.io/";
+//var appurl = "https://fcc-project-hwun.c9users.io/";
+var appurl = "https://fcc-bingimagesearch.herokuapp.com/";
 
 var Bing = require('node-bing-api')({
     accKey: process.env.BING_KEY
