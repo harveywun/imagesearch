@@ -86,7 +86,10 @@ mongo.MongoClient.connect(url, function(err, db) {
         printHistory(res, db);
     });
 
+    app.listen(process.env.PORT || 8080);
+    /*
     app.listen(8080, function() {
         console.log('Example app listening');
     });
+    */
 });
